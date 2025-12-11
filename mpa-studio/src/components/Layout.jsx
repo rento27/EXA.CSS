@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
     <div className="relative flex h-auto min-h-screen w-full flex-col">
       <a
         href="#main-content"
-        className="fixed top-4 left-4 z-50 -translate-y-[150%] transition-transform focus:translate-y-0 bg-white text-black px-4 py-2 rounded-lg shadow-lg font-medium outline-none ring-2 ring-primary-magenta"
+        className="fixed top-4 left-4 z-50 -translate-y-[150%] transition-transform focus:translate-y-0 bg-surface-dark text-white border border-primary-magenta px-5 py-2.5 rounded-lg shadow-[0_0_15px_rgba(255,0,255,0.3)] font-bold tracking-wide outline-none ring-2 ring-primary-magenta hover:bg-primary-magenta/10"
       >
         Skip to main content
       </a>
